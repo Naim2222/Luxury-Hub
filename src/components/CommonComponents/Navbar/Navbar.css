@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+
+.navbar-toggler{
+border:1px solid rgb(3, 167, 153)
+}
+.menu_icon{
+    font-size: 1rem !important;
+}
+.navbar{
+    background: rgb(3, 167, 153);
+    width: 100%;
+  position: fixed ;
+  top:0;
+z-index: 99;
+}
+.nav-link{
+    font-family: 'Play', sans-serif;
+    color:white;
+    font-size: 1.2rem;
+  
+}
+.navbar-brand{
+    margin-right: 5rem;
+}
+.register_link{
+    background: #fff ;
+    border-radius: .8rem 0 .8rem 0;
+    margin: 0 2rem 0 3rem;
+    transition: .5s;
+    border: 2px solid rgb(3, 167, 153);
+    margin: auto;
+    padding: .5rem .8rem !important;
+}
+.register_link:hover{
+    background: rgb(3, 167, 153);
+    cursor: pointer;
+    border:2px solid white
+}
+.register_link a{
+    color:rgb(3, 167, 153) !important;
+}
+.register_link:hover a{
+    color:#fff !important;
+}
+.nav-item{
+    margin-left: 2rem ;
+    border-radius: .8rem 0 .8rem 0;
+padding:0 .5rem;
+    border:2px solid rgb(3, 167, 153);
+    transition: all ease-in .2s;
+}
+.register{
+    text-decoration: none;
+}
+.nav-item:hover{
+    background: rgb(2, 97, 89);
+  
+}
+
+.nav-item:hover .nav-link{
+    color:white
+  
+}

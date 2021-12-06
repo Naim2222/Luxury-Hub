@@ -1,0 +1,49 @@
+.propertyMenu{
+    height: auto;
+    width:auto;
+    margin:auto;
+}
+.PropertyMenu_row,.PropertyMenu_row2{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    margin:auto;
+flex-wrap: wrap;
+}
+.card{
+    width: 350px ;
+    margin: 2rem auto;
+    text-align: left;
+}
+.card-img-top{
+    width:100%;
+}
+.btn{
+    margin:0 auto;
+    border:2px solid white;
+    border-radius: .3rem;
+    background: #f9be6e;
+    font-weight: 600;
+}
+.btn:hover{
+    background: #fdb34b;
+}
+
+
+@media only screen and (max-width: 600px) {
+    
+    .PropertyMenu_row,.PropertyMenu_row2{
+        flex-direction: column;
+
+    }
+    .propertyMenu{
+        width:auto;
+        height:auto
+    }
+    .card{
+        width: 300px;
+    }
+   }

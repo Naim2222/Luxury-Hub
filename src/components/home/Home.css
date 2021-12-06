@@ -1,0 +1,8 @@
+.homeMain{
+    height:100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(23,23,45,0.7),rgba(23,23,45,0.7)), url('../../images/homeBg.jpg');
+    background-size: cover;
+    overflow: hidden;
+    /* background: #000; */
+}

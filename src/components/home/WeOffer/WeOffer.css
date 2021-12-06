@@ -1,0 +1,86 @@
+
+.weOffer{
+    width: auto;
+    height: auto;
+    background: rgb(47,61,99);
+    padding-bottom: 2rem;
+}
+.weOffer h1{
+    position:relative
+}
+.weOffer h1::before{
+content:"";
+position: absolute;
+width: 200px;
+height:4px;
+margin: 3.5rem 2rem;
+background: #f9be6e;
+border-radius: .3rem;
+}
+.offer_row{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    margin:auto;
+    flex-wrap: wrap;
+    margin:1rem;
+}
+
+
+.offerCard{
+    display: flex;
+    flex-direction: column;
+    width:330px;
+    height: 250px;
+    justify-content: space-between;
+    align-items: center;
+    margin:1rem auto;
+    cursor: pointer;
+    background: white;
+    padding:1.5rem;
+    border-radius: .5rem;
+    transition: all ease-in .2s;
+
+}
+.offerCard:hover{
+    -ms-transform: translateY(-.5rem);
+   
+    transform: translateY(-.5rem);
+   
+  
+}
+
+.offerCard div{
+    background: #f9be6e;
+    padding: .5rem;
+    border-radius: 999px;
+}
+.MuiSvgIcon-root{
+    font-size: 50px !important;
+    color:white;
+ 
+}
+
+
+@media only screen and (max-width: 600px) {
+   .offer_row{
+       flex-direction: column;
+       width:auto
+   }
+   .offer_row2{
+       display: none;
+   }
+   .offerCard{
+      width: 300px;
+       
+   }
+   .offerCard h3{
+       font-size: 1.2rem;
+   }
+   .weOffer h1::before{
+       margin:3.5rem auto;
+   }
+  }
