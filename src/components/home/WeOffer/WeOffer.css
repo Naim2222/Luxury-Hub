@@ -33,7 +33,7 @@ border-radius: .3rem;
 .offerCard{
     display: flex;
     flex-direction: column;
-    width:330px;
+    width:350px;
     height: 250px;
     justify-content: space-between;
     align-items: center;
