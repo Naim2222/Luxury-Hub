@@ -2,7 +2,7 @@ import React from 'react'
 import LoyaltyIcon from '@material-ui/icons/Loyalty'
 import PhoneIcon from '@material-ui/icons/Phone'
 import OfferCard from './OfferCard';
-
+import './WeOffer.css'
 
 function WeOffer() {
     const OfferInfo = [
