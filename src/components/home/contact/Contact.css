@@ -126,3 +126,15 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .contact .right form .fields{
+flex-direction: column;    }
+.contact .right form .email{
+    margin-left: 0;  
+}
+.contact .contact-content .column{
+    width:80%
+}
+   }
